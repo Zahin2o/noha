@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@1,500&display=swap');
+
+/* head part */
+
+   
+
+   
+nav{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin-left: 50px;
+   margin-right: 20px
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* banner er part */
+.banner{
+    display: flex;
+    margin-left: 100px;
+}
+.borolikha{
+    font-size: 50px;
+}
+
+.btn{
+    background-color:deeppink;
+    color: aliceblue;
+    padding: 7px;
+    border-radius: 20px;
+    border-style: none;
+}
+.fa-right-long{
+    background-color: deeppink;
+}
+.hr{
+    color: 8px solid red;
+}
+
+/* 3rd section */
+.logo{
+  display: flex;
+    gap:60px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+/* main part */
+.pupu{
+    text-align: center;
+}
+.ponno{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 60px;
+    margin-left: 100px;
+    grid-column-gap: 10px;
+   
+   
+}
+
+.star{
+    color: rgb(206, 206, 29);
+    gap:1px;
+}
+.seemore{
+    position: absolute;
+    right: 0px;
+    color: deeppink;
+}
+
+/* second last part */
+.join{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+    
+
+/* footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.811);
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse;
+        margin-left: 10px;
+        
+        
+        
+    }
+    .banner img{
+       width: 100%;
+    }
+}
